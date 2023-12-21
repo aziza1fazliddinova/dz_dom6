@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    padding-bottom: 40px;
+}
+
+.text h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.text_p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 400px;
+    padding-bottom: 40px;
+}
+
+.text_p p {
+    padding-top: 10px;
+    color: var(--Text-Color, #1A1A1A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.left {
+    display: flex;
+    width: 301px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    width: 301px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+form input {
+    width: 277px;
+    height: 57px;
+}
+
+.secondary span {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 6px;
+    padding: 20px;
+}
+
+.important input {
+    border-radius: 4px;
+    border: 2px solid #4200FF;
+    background: #FFF;
+}
+
+.secondary input {
+    border-radius: 4px;
+    border: 1px solid var(--Grey-AA-Large, #949494);
+    background: #FFF;
+}
+
+.important p {
+    padding-top: 6px;
+    color: var(--Grey-AAA, #595959);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.important {
+    height: 101px;
+    width: 301px;
+}
+
+.secondary {
+    height: 101px;
+    width: 301px;
+}
+
+.important span {
+    color: #4200FF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+button {
+    width: 277px;
+    height: 59px;
+    padding: 20px 12px;
+    text-align: center;
+    color: wheat;
+    flex-shrink: 0;
+    border-radius: 4px;
+   border: 1px solid #000;
+    background: #4200FF;
+    margin-left: 500px;
+}
+
+.eror{
+    border-radius: 4px;
+    border: 2px solid var(--Error-Red, #EE0004);
+    background: #FFF;
+}
