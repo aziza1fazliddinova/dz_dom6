@@ -1,89 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="text">
-            <h1>Example form</h1>
-            <div class="text_p">
-                <p>All: <span>15</span></p>
-                <p>Need: <span>12</span></p>
-                <p>Success: <span>8</span>/12</p>
-                <p>Error: <span>4</span>/12</p>
-            </div>
-            <form class="form">
-                <div class="left">
-                    <div class="important">
-                        <span>Name</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="secondary">
-                        <span>Surname</span>
-                        <input type="text">
-                    </div>
-                    <div class="important">
-                        <span>Email adress</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="secondary">
-                        <span>Phone number</span>
-                        <input type="text">
-                    </div>
-                    <div class="secondary">
-                        <span>Your Mom’s name</span>
-                        <input type="text">
-                    </div>
-                    <div class="secondary">
-                        <span>Your Pap’s name</span>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="important">
-                        <span>Age</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="important">
-                        <span>About You</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="important">
-                        <span>What is JavaScript?</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="important">
-                        <span>What is HTML?</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="important">
-                        <span>What is CSS?</span>
-                        <input type="text">
-                        <p>Need to fill</p>
-                    </div>
-                    <div class="secondary">
-                        <span>Your favourite car</span>
-                        <input type="text">
-                    </div>
-                </div>
-            </form>
-            <button class="save">Save changes</button>
+    <div class="text">
+        <h1>Example form</h1>
+        <div class="text_p">
+            <p>All: <span>12</span></p>
+            <p>Need: <span>12</span></p>
+            <p>Success: <span>7</span>/12</p>
+            <p class="Error">Error: <span>0</span>/7</p>
+        </div>
+    <form name="login" >
+        <div class="box">
+        <div class="box1">
+        <div class="input-group required" >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group" >
+            <label for="surname">Surname</label>
+            <input type="text" id="age" name="surname" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group required" >
+            <label for="Email">Email adress</label>
+            <input type="email" id="name" name="Email" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group" >
+            <label for="Phone">Phone number</label>
+            <input type="number" id="age" name="Phone" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group" >
+            <label for="Mom’s">Your Mom’s name</label>
+            <input type="text" id="age" name="Mom’s" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group" >
+            <label for="Pap’s">Your Pap’s name</label>
+            <input type="text" id="age" name="Pap’s" >
+            <span>Need to Fill</span>
         </div>
     </div>
+    <div class="box2">
+        <div class="input-group required" >
+            <label for="Age">Age</label>
+            <input type="number" id="name" name="Age" >
+            <span>Need to Fill</span>
+        </div>
 
+        <div class="input-group required" >
+            <label for="About You">About You</label>
+            <input type="text" id="name" name="About You" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group required" >
+            <label for="JavaScript">What is JavaScript?</label>
+            <input type="text" id="name" name="JavaScript" >
+            <span>Need to Fill</span>
+        </div>
+
+        <div class="input-group required" >
+            <label for="HTML">What is HTML?</label>
+            <input type="text" id="name" name="HTML" >
+            <span>Need to Fill</span>
+        </div>
+        <div class="input-group required" >
+            <label for="CSS">What is CSS?</label>
+            <input type="text" id="name" name="CSS" >
+            <span>Need to Fill</span>
+        </div><div class="input-group" >
+            <label for="favourite car">Your favourite car</label>
+            <input type="number" id="age" name="favourite car" >
+            <span>Need to Fill</span>
+        </div>
     </div>
+</div>
+        <button class="btn">submit</button>
+    </form>
 
     <script src="./index.js"></script>
 </body>
