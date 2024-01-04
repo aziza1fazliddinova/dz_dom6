@@ -9,12 +9,11 @@ form {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 form .input-group {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    padding-bottom: 20px;
 }
 form .input-group input {
     padding: 6px 10px;    
@@ -55,7 +54,7 @@ form .input-group input {
     gap: 29px;
     margin-top: 30px;
 }
-.text{
+.text2 h1{
    text-align: center;
 }
 .text_p{
@@ -74,4 +73,13 @@ form .input-group input {
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-left: 120px;
+   background-color: rgb(70, 70, 247);
+   border: none;
+   color: wheat;
+}
+
+span{
+  font-size: 15px;
+  color: rgb(115, 115, 115);
 }
