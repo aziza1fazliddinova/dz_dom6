@@ -16,7 +16,7 @@ form.onsubmit = (event) => {
         }
     })
     if(error_count > 0) {
-        alert('Чушпан')
+        alert('Введите все данные')
     } else {
         submit()
     }
@@ -34,4 +34,15 @@ function submit() {
     })
 
     console.log(user);
+}
+
+function validateInput(inputElement, regex) {
+    let i = inputElement.value
+    let valid = regex.test(i)
+
+    if (!valid) {
+        inputElement.style.border = '1px solid red'
+    } else {
+        inputElement.style.border = ''
+    }
 }

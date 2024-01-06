@@ -26,65 +26,64 @@
 
         <div class="input-group" >
             <label for="surname">Surname</label>
-            <input type="text" id="age" name="surname" >
+            <input type="text" id="age" name="surname" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group required" >
             <label for="Email">Email adress</label>
-            <input type="email" id="name" name="Email" >
+            <input type="email" id="name" name="Email" onkeyup="validateInput(this, /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/)"x>
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group" >
             <label for="Phone">Phone number</label>
-            <input type="number" id="age" name="Phone" >
+            <input type="number" id="age" name="Phone" onkeyup="validateInput(this, /^\d{9}$/)">
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group" >
             <label for="Mom’s">Your Mom’s name</label>
-            <input type="text" id="age" name="Mom’s" >
+            <input type="text" id="age" name="Mom’s" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group" >
             <label for="Pap’s">Your Pap’s name</label>
-            <input type="text" id="age" name="Pap’s" >
+            <input type="text" id="age" name="Pap’s" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
     </div>
     <div class="box2">
         <div class="input-group required" >
             <label for="Age">Age</label>
-            <input type="number" id="name" name="Age" >
+            <input type="number" id="name" name="Age" onkeyup="validateInput(this, /^.{1,50}$/)">
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group required" >
             <label for="About You">About You</label>
-            <input type="text" id="name" name="About You" >
+            <input type="text" id="name" name="About You" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
-
         <div class="input-group required" >
             <label for="JavaScript">What is JavaScript?</label>
-            <input type="text" id="name" name="JavaScript" >
+            <input type="text" id="name" name="JavaScript" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
 
         <div class="input-group required" >
             <label for="HTML">What is HTML?</label>
-            <input type="text" id="name" name="HTML" >
+            <input type="text" id="name" name="HTML" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div>
         <div class="input-group required" >
             <label for="CSS">What is CSS?</label>
-            <input type="text" id="name" name="CSS" >
+            <input type="text" id="name" name="CSS" onkeyup="validateInput(this, /^[A-Za-z]+$/)">
             <span>Need to Fill</span>
         </div><div class="input-group" >
             <label for="favourite car">Your favourite car</label>
-            <input type="number" id="age" name="favourite car" >
+            <input type="number" id="age" name="favourite car" onkeyup="validateInput(this, /^[A-Za-z0-9\s]+$/)">
             <span>Need to Fill</span>
         </div>
     </div>
@@ -94,5 +93,4 @@
 
     <script src="./index.js"></script>
 </body>
-
 </html>
